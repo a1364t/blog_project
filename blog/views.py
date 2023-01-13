@@ -22,10 +22,11 @@ class PostListView(generic.ListView):
 
 
 class PostDetailView(generic.DetailView):
-    template_name = 'blog/post_detail.html'
     model = Post
+    form_class = PostForm
+    template_name = 'blog/post_detail.html'
     context_object_name = 'post'
-
+    
 
 class PostCreateView(generic.CreateView):
     form_class = PostForm
