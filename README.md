@@ -17,15 +17,19 @@ What things you need to install the software and how to install them
 
 1. Clone the repository
 
-``` git clone https://github.com/a1364t/blog_project.git```
+```git clone https://github.com/a1364t/blog_project.git```
 
 2. Set up the [Python Virtual Environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
 
 3. Install the required packages
 
-``` pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 4. Apply migrations
 
-``` python manage.py migrate```
+```python manage.py migrate```
+
+5. Run the development server
+
+```python manage.py runserver```
 
